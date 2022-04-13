@@ -65,7 +65,8 @@ scrollReveal.reveal(
   ` #home .image, #home .text, 
   #about .image, #about .text,
   #services header, #services .card,
-  #testimonials header, #testimonials .testimonials,
+  #testimonials header, #testimonials .testimonials, #testimonials .text,
+  #videos .video, #videos .text, #videos .title,
   #contact .text, #contact .links,
   footer .brand, footer .social
   `,

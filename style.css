@@ -397,12 +397,32 @@ nav.show .icon-close {
 #testimonials .text {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+ 
   text-align: center;
 }
 #testimonials .button {
   background-color: var(--body-color);
 }
 #testimonials .button i {
+  font-size: 1.5rem;
+  margin-right: 0.625rem;
+}
+
+/* ===================== Videos ============================== */
+/*  Equi estou incerindo os videos que crie para o meu portifolio
+Eles tambem estaram diponiveis  em outro local*/
+/* Button  - Ver mais*/
+
+#videos .text {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+ 
+  text-align: center;
+}
+#videos .button {
+  background-color: var(--base-color);
+}
+#videos .button i {
   font-size: 1.5rem;
   margin-right: 0.625rem;
 }
@@ -607,7 +627,10 @@ footer .social a:hover {
     margin-left: auto;
     margin-right: auto;
   }
-
+  
+  #videos .title{
+    text-align: center;
+  } 
   /* Contact */
   #contact .container {
     grid-auto-flow: column;
